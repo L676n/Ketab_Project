@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:background="@drawable/rounded_corner"
+        android:clipToOutline="true"
+        android:text="Home Page"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="@color/grey"
+        android:onClick="onClickChooseBok"
+        android:text="Choose Your Book"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="@color/grey"
+        android:onClick="onClickReminder"
+        android:text="Remind Your Self"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="@color/grey"
+        android:onClick="onClickReadingCounter"
+        android:text="Reading Counter"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="@color/grey"
+        android:onClick="onClickBookInfo"
+        android:text="Books Info"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@color/grey"
+        android:text="Exit App"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        app:cornerRadius="20dp"
+        android:onClick="onClickGoodBye"/>
+</RelativeLayout>

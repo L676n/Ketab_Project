@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookInfo">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:background="@drawable/rounded_corner"
+        android:clipToOutline="true"
+        android:text="Choose a book to see the info"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:paddingLeft="12dp"
+        android:paddingTop="34dp"/>
+
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="130dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/moonknight"
+        android:onClick="onClickShowMoonInfo"/>
+
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="130dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/dune"
+        android:onClick="onClickShowDuneInfo"/>
+
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="390dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/naruto"
+        android:onClick="onClickShowNarutoInfo"/>
+
+    <ImageButton
+        android:layout_width="190dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="390dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/orangetree"
+        android:onClick="onClickShowOrangeInfo"/>
+
+    <Button
+        android:id="@+id/HomeBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Back to home Page"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="130dp"
+        android:onClick="onClickGoBackHome"/>
+
+</FrameLayout>

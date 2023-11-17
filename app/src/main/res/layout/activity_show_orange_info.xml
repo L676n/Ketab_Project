@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".show_orange_info">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:background="@drawable/rounded_corner"
+        android:clipToOutline="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="1dp"
+        android:text="Books info"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/bookimage"
+        android:layout_width="80dp"
+        android:layout_height="95dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/orangetree" />
+
+    <TextView
+        android:id="@+id/booktitleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="65dp"
+        android:text="My Orange Tree"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/auther"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="145dp"
+        android:text="Auther:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/covertext"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="205dp"
+        android:backgroundTint="@color/grey"
+        android:clickable="false"
+        android:text="Mohamed Nabhan"
+        android:textSize="16dp"
+        app:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/coverartist"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:text="Cover Artist:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/countrytext"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="270dp"
+        android:backgroundTint="@color/grey"
+        android:clickable="false"
+        android:text="Tunisia"
+        android:textSize="16dp"
+        app:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="275dp"
+        android:text="Country:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/languagetext"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="335dp"
+        android:backgroundTint="@color/grey"
+        android:clickable="false"
+        android:text="Arabic"
+        android:textSize="16dp"
+        app:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="340dp"
+        android:text="Language:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/seriestext"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="385dp"
+        android:backgroundTint="@color/grey"
+        android:clickable="false"
+        android:text="My Sweet Orange Tree"
+        android:textSize="12dp"
+        app:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/series"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="395dp"
+        android:text="Series:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/publishedtext"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@color/grey"
+        android:clickable="false"
+        android:text="2018"
+        android:textSize="16dp"
+        app:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/published"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="460dp"
+        android:text="Published:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/publishertext"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="515dp"
+        android:backgroundTint="@color/grey"
+        android:clickable="false"
+        android:text="Miskiliani Pblishing"
+        android:textSize="13dp"
+        app:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/publisher"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="525dp"
+        android:text="Publisher:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/authertext"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="@color/grey"
+        android:clickable="false"
+        android:text="José Mauro de Vasconcelos"
+        android:textSize="12dp"
+        app:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/pages"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="590dp"
+        android:text="Pages:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/pagestext"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="585dp"
+        android:backgroundTint="@color/grey"
+        android:clickable="false"
+        android:text="258"
+        android:textSize="16dp"
+        app:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+</RelativeLayout>

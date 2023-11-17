@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/drawable/rounded_corner.xml" value="0.1" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/drawable/roundedcorner.xml" value="0.1295" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/drawable/text_rounded_corner.xml" value="0.1" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_book_info.xml" value="0.22" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_choose_book.xml" value="0.22" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_dune_reader.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_home_page.xml" value="0.22" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_log_in_btn.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_moon_knight_reader.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_naruto_reader.xml" value="0.1" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_orangetree_reader.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_reading_counter.xml" value="0.22" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_reminder.xml" value="0.22" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_reminderc_counter.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_show_dune_info.xml" value="0.22" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_show_moonknight_info.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_show_naruto_info.xml" value="0.22" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_show_orange_info.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/activity_sign_up_btn.xml" value="0.22" />
+        <entry key="..\:/Users/allen/AndroidStudioProjects/Project_LayanAlharbi/app/src/main/res/layout/text_rounded_corner.xml" value="0.17864583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

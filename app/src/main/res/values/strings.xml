@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ketab</string>
+    <string name="user_name">User Name:</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="sign_up">Sign Up</string>
+
+    <string name="log_in">Login and go to home page</string>
+
+    <string-array name="books">
+        <item>MoonKnight</item>
+        <item>Dune</item>
+        <item>Naruto</item>
+        <item>My Orange Tree</item>
+    </string-array>
+</resources>
